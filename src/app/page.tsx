@@ -16,8 +16,18 @@ export default function About() {
       <div className="flex items-center justify-center w-full py-10">
         <div className="flex flex-col gap-6 p-8 bg-white bg-opacity-80 rounded-lg shadow-lg w-full max-w-3xl sm:flex-row sm:items-center">
           <Image
+<<<<<<< HEAD
             src="/imagePort.jpg" // Caminho correto para imagem 
             alt="Foto de João Pedro" //
+=======
+<<<<<<< HEAD
+            src="/imagePort.jpg" // Caminho correto para imagem 
+            alt="Foto de João Pedro" //
+=======
+            src="/imagePort.jpg" // Caminho correto para imagem
+            alt="Foto de João Pedro"
+>>>>>>> d6431e03690cad13c35a0a5b4349328a0853ca08
+>>>>>>> 1ac02e56f73072f98497960f716b29f24494c65c
             className="rounded-full" // Bordas redondas
             width={200} // Largura da imagem 
             height={200} // Altura da imagem 
