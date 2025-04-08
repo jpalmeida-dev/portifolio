@@ -6,7 +6,7 @@ export default function About() {
     <div
       className="flex w-full"
       style={{
-        height: "100vh", // Define a altura do contêiner
+        height: "100vh", // Define a altura do contêiner 
         backgroundImage: "url('/imgProject/imgportifolio.jpg')", // Caminho para a imagem de fundo
         backgroundSize: "cover", // Faz a imagem cobrir todo o contêiner
         backgroundPosition: "center", // Centraliza a imagem
@@ -16,11 +16,11 @@ export default function About() {
       <div className="flex items-center justify-center w-full py-10">
         <div className="flex flex-col gap-6 p-8 bg-white bg-opacity-80 rounded-lg shadow-lg w-full max-w-3xl sm:flex-row sm:items-center">
           <Image
-            src="/imagePort.jpg" // Caminho correto para imagem
+            src="/imagePort.jpg" // Caminho correto para imagem 
             alt="Foto de João Pedro" //
             className="rounded-full" // Bordas redondas
-            width={200} // Largura da imagem
-            height={200} // Altura da imagem
+            width={200} // Largura da imagem 
+            height={200} // Altura da imagem 
           />
 
           <div className="space-y-2 text-center sm:text-left">
