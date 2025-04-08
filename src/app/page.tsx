@@ -14,10 +14,15 @@ export default function About() {
       }}
     >
       <div className="flex items-center justify-center w-full py-10">
-        <div className="flex flex-col gap-6 p-8 bg-white bg-opacity-80 rounded-lg shadow-lg w-full max-w-3xl sm:flex-row sm:items-center">
+        <div className="flex flex-col gap-6 p-6 bg-white bg-opacity-80 rounded-lg shadow-lg w-full max-w-lg sm:flex-row sm:items-center sm:p-8">
           <Image
+<<<<<<< HEAD
             src="/imagePort.jpg" // Caminho correto para imagem 
             alt="Foto de João Pedro" //
+=======
+            src="/imagePort.jpg" // Caminho correto para imagem
+            alt="Foto de João Pedro"
+>>>>>>> d6431e03690cad13c35a0a5b4349328a0853ca08
             className="rounded-full" // Bordas redondas
             width={200} // Largura da imagem 
             height={200} // Altura da imagem 
@@ -41,7 +46,7 @@ export default function About() {
               habilidades que estou desenvolvendo.
             </p>
             <Link href="/contact" passHref>
-              <button className="bg-violet-500 hover:bg-violet-600 text-white font-semibold rounded-full w-48 mt-5 py-3 transition duration-300">
+              <button className="bg-violet-500 hover:bg-violet-600 text-white font-semibold rounded-full w-full sm:w-48 mt-5 py-3 transition duration-300">
                 Entre em contato
               </button>
             </Link>
