@@ -10,7 +10,7 @@ export default function Contact() {
   const [submitted, setSubmitted] = useState(false);
   const [error, setError] = useState("");
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: { preventDefault: () => void; }) => {
     e.preventDefault();
 
     // Aqui você pode adicionar a lógica para enviar os dados do formulário
@@ -98,7 +98,6 @@ export default function Contact() {
             onChange={(e) => setMessage(e.target.value)}
             required
             className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-            rows="4"
           />
         </div>
 
