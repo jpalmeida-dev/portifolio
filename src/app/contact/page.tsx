@@ -1,7 +1,7 @@
-// pages/contact.js
 "use client";
 
 import React, { useState } from "react";
+import { FaLinkedin, FaGithub, FaWhatsapp } from "react-icons/fa"; // Importando os ícones
 
 export default function Contact() {
   const [name, setName] = useState("");
@@ -109,6 +109,17 @@ export default function Contact() {
             Enviar
           </button>
         </div>
+          <div className="flex justify-center mt-6 space-x-4">
+            <a href="https://www.linkedin.com/in/jo%C3%A3o-pedro-almeida-706207171?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BSni%2FNljQRWyuZsw4gDEF3A%3D%3D" target="_blank" rel="noopener noreferrer">
+              <FaLinkedin className="text-blue-600 hover:text-blue-800 transition duration-200" size={30} />
+            </a>
+            <a href="https://github.com/jpalmeida-dev" target="_blank" rel="noopener noreferrer">
+              <FaGithub className="text-gray-800 hover:text-gray-600 transition duration-200" size={30} />
+            </a>
+            <a href="https://wa.me/11941602224" target="_blank" rel="noopener noreferrer">
+              <FaWhatsapp className="text-green-600 hover:text-green-800 transition duration-200" size={30} />
+            </a>
+          </div>
       </form>
     </div>
   );
